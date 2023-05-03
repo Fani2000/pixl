@@ -17,7 +17,7 @@ type Swatch struct {
 	clickHandler func(s *Swatch)
 }
 
-func (s *Swatch) setColor(c color.Color) {
+func (s *Swatch) SetColor(c color.Color) {
 	s.Color = c
 	s.Refresh()
 }
